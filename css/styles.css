@@ -1,0 +1,199 @@
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+/* title section */
+
+#title {
+  background-color: #ff4c68;
+  overflow: hidden;
+}
+.container-fluid {
+  padding: 70px;
+  position: relative;
+  bottom: 30px;
+  left: 125px;
+}
+h1 {
+  font-size: 5rem;
+  font-weight: bold;
+}
+p {
+  color: #8f8f8f;
+}
+.main-head {
+  color: #fff;
+}
+button {
+  position: relative;
+  top: 40px;
+  margin: 10px;
+}
+.title-image {
+  width: 45%;
+  transform: rotate(20deg);
+}
+
+/* title section ends*/
+
+/* navigation bar */
+
+.navbar {
+  padding-bottom: 40px;
+  font-family: "Ubuntu", sans-serif;
+}
+.navbar-brand {
+  font-size: 3.5rem;
+}
+.navbar-nav {
+  position: relative;
+  left: 600px;
+}
+.nav-link {
+  font-size: 1.2rem;
+}
+
+/* navigation bar ends*/
+
+/* features */
+
+#features {
+  padding: 7% 15%;
+  background-color: #fff;
+}
+
+.feature-box {
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  padding: 4.5%;
+}
+
+.icon {
+  padding-bottom: 10px;
+  color: #ef8172;
+}
+
+.icon:hover {
+  color: #ff4c68;
+}
+
+/* features end */
+
+/* testimonials */
+
+#testimonials {
+  padding: 7% 15%;
+  background-color: #ef8172;
+  color: #fff;
+  text-align: center;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+}
+
+#testimonials h2 {
+  line-height: 2;
+  padding-bottom: 40px;
+  width: 70%;
+  position: relative;
+  left: 120px;
+}
+
+/* testimonials end */
+
+/* press */
+
+#press {
+  background-color: #ef8172;
+  text-align: center;
+}
+
+.press-logo {
+  width: 10%;
+  margin: 20px 40px 50px;
+}
+
+/* press ends*/
+
+/* pricing */
+
+#pricing {
+  padding: 5% 4%;
+  text-align: center;
+  line-height: 1.5rem;
+}
+
+main {
+  padding: 30px 40px;
+}
+
+.w-100 {
+  position: relative;
+  right: 2.75%;
+  margin-bottom: 40px;
+}
+
+.btn-new {
+  background-color: #ef8172;
+}
+
+.btn-new:hover {
+  background-color: #ff4c68;
+}
+
+/* pricing ends */
+
+/* media break point query */
+
+@media (max-width: 1028px) {
+  .title-image {
+    transform: rotate(0);
+    position: relative;
+    top: 15%;
+  }
+
+  #title {
+    text-align: center;
+    font-size: 1.5rem;
+  }
+  .container-fluid {
+    padding: 50px 10px;
+    position: relative;
+    left: 5%;
+  }
+}
+
+/* media break point query ends*/
+
+/* call to action */
+
+#cta {
+  background-color: #ff4c68;
+  height: auto;
+  text-align: center;
+  padding: 50px;
+  padding-bottom: 80px;
+}
+
+#cta h3 {
+  font-family: "Montserrat", sans-serif;
+  color: #fff;
+  font-size: 2.2rem;
+  line-height: 1.3;
+}
+
+/* call to action ends*/
+
+/* footer */
+
+#footer {
+  text-align: center;
+  padding: 5% 15%;
+}
+
+#footer i {
+  padding: 10px;
+}
+/* footer ends*/
